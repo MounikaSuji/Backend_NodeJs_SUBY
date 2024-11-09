@@ -10,12 +10,12 @@ const productSchema = new mongoose.Schema({
         required: true
     },
     bestSeller: {
-        type: String,
-        required: true
+        type: Boolean
+        
     },
     description: {
         type: String,
-        required: true
+        
     },
     category: {
         type: [
