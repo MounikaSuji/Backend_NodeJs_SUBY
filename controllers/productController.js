@@ -2,7 +2,7 @@ const Product = require("../models/Product")
 const multer = require('multer');
 const Firm = require("../models/Firm");
 const Vendor = require("../models/Vendor");
-
+const path = require('path')
 
 
 // Configure storage for multer
